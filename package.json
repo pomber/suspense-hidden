@@ -1,0 +1,20 @@
+{
+  "name": "suspense-1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-preset-react-app": "^3.1.1",
+    "parcel-bundler": "^1.9.2",
+    "react": "./lib/react",
+    "react-dom": "./lib/react-dom"
+  },
+  "scripts": {
+    "start": "parcel ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  }
+}

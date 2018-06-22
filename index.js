@@ -30,9 +30,5 @@ const App = () => (
   </div>
 );
 
-ReactDOM.render(
-  <React.unstable_AsyncMode>
-    <App />
-  </React.unstable_AsyncMode>,
-  document.getElementById("root")
-);
+const root = ReactDOM.unstable_createRoot(document.getElementById("root"));
+root.render(<App />);
